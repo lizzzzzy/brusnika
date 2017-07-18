@@ -15,7 +15,7 @@ if (isset($_REQUEST['data']))  {
     "$phone";
 
   // send email
-  mail($email_to, 'Консультация по обмену (Сургут)', $data, "From: " . $admin_email . "\r\n"
+  mail($email_to, 'Консультация по обмену Сургут', $data, "From: " . $admin_email . "\r\n"
   ."X-Mailer: PHP/" . phpversion());
 
   //Email response

@@ -1,3 +1,151 @@
+/* @font-face {
+	font-family: 'Helvetica4Light';
+	src: url('http://www.sastroy.com/fonts/helv4light-webfont.eot');
+}
+@font-face {
+	font-family: 'Helvetica4Light';
+	src: 	url('fonts/helv4light-webfont.ttf') format('truetype'),
+	  		url('fonts/helv4light-webfont.svg#helvetica-4-light4-light') format('svg'),
+            url('fonts/helv4light-webfont.ttf') format('truetype');
+	src: url('http://www.sastroy.com/fonts/helv4light-webfont.eot');
+	src: url('http://www.sastroy.com/fonts/helv4light-webfont.eot?#iefix') format('embedded-opentype'), url('http://www.sastroy.com/fonts/helv4light-webfont.svg#helvetica-4-light4-light') format('svg'), url('http://www.sastroy.com/fonts/helv4light-webfont.woff') format('woff'), url('http://www.sastroy.com/fonts/helv4light-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Helvetica3Thin';
+	src: url('http://www.sastroy.com/fonts/helv3thin-webfont.eot');
+	src: url('http://www.sastroy.com/fonts/helv3thin-webfont.eot?#iefix') format('embedded-opentype'), url('http://www.sastroy.com/fonts/helv3thin-webfont.woff') format('woff'), url('http://www.sastroy.com/fonts/helv3thin-webfont.ttf') format('truetype'), url('http://www.sastroy.com/fonts/helv3thin-webfont.svg#helvetica-3-thin3-thin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Helvetica7Bold';
+	src: url('http://www.sastroy.com/fonts/helv7bold-webfont.eot');
+	src: url('http://www.sastroy.com/fonts/helv7bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://www.sastroy.com/fonts/helv7bold-webfont.woff') format('woff'), url('http://www.sastroy.com/fonts/helv7bold-webfont.ttf') format('truetype'), url('http://www.sastroy.com/fonts/helv7bold-webfont.svg#helvetica-7-bold7-bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Helvetica6Medium';
+	src: url('http://www.sastroy.com/fonts/helveticaneuecyr-medium-webfont.eot');
+	src: url('http://www.sastroy.com/fonts/helveticaneuecyr-medium-webfont.eot?#iefix') format('embedded-opentype'), url('http://www.sastroy.com/fonts/helveticaneuecyr-medium-webfont.woff') format('woff'), url('http://www.sastroy.com/fonts/helveticaneuecyr-medium-webfont.ttf') format('truetype'), url('http://www.sastroy.com/fonts/helveticaneuecyr-medium-webfont.svg#helveticaneuecyrmedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} */
+ @font-face {
+	font-family: 'FreeSet-Book';
+	src: url('fonts/2946C3_2_0.eot');
+	src: url('fonts/2946C3_2_0.eot?#iefix') format('embedded-opentype'), url('fonts/2946C3_2_0.woff') format('woff'), url('fonts/2946C3_2_0.ttf') format('truetype');
+
+}
+@font-face {
+	font-family: 'FreeSet-Bold';
+	src: url('fonts/2946C3_3_0.eot');
+	src: url('fonts/2946C3_3_0.eot?#iefix') format('embedded-opentype'), url('fonts/2946C3_3_0.woff') format('woff'), url('fonts/2946C3_3_0.ttf') format('truetype');
+
+}
+@font-face {
+	font-family: 'FreeSet-Light';
+	src: url('fonts/2946C3_4_0.eot');
+	src: url('fonts/2946C3_4_0.eot?#iefix') format('embedded-opentype'), url('fonts/2946C3_4_0.woff') format('woff'), url('fonts/2946C3_4_0.ttf') format('truetype');
+
+}
+@font-face {
+	font-family: "ALSRubl-Arial";
+	font-style: normal;
+	font-weight: normal;
+	src: url("http://www.sastroy.com/fonts/alsrubl-arial-regular.eot?#iefix") format("embedded-opentype"), url("http://www.sastroy.com/fonts/alsrubl-arial-regular.woff") format("woff"), url("http://www.sastroy.com/fonts/alsrubl-arial-regular.ttf") format("truetype"), url("http://www.sastroy.com/fonts/alsrubl-arial-regular.svg#ALSRublArialRegular") format("svg");
+}
+/*
+@font-face {
+	font-family: 'FreeSet';
+	src: url('fonts/freeset.ttf') format('truetype');
+} 
+*/
+.novosib p{
+font-size: 16px;
+	line-height: 22px;
+}
+.novosib .main-menu{
+	padding-left: 0;
+	margin-left: -18px;
+	margin-bottom: 25px;
+}
+.novosib .heading-text{
+	margin-top: 50px;
+	margin-bottom: 70px;
+
+}
+.novosib .excursion__form--wide .excursion__success-message{
+	font-size: 22px;
+	line-height: 24px;
+}
+.novosib .excursion-bv .input--big{
+	font-size: 16px;
+	padding-left: 22px;
+	padding-top: 8px;
+}
+.novosib p, .novosib ul{
+	    font-size: 16px;
+    line-height: 22px;
+	margin: 20px 0;
+}
+.novosib ul{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.novosib ul li{
+	margin-bottom: 1rem !important;
+}
+.novosib .fl-r, .novosib .fl-l {
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+.novosib .big-margin{
+	margin-top: 20px;
+}
+.novosib .big-bottom-margin{
+	margin-bottom: 20px;
+}
+.novosib .excursion-bv{
+/*	box-shadow: 2px 5px 6px #cacaca, -2px 5px 6px #cacaca;*/
+	background: #f0f0f0;
+}
+.novosib .brusnika__border-block{
+	border: 4px solid #008fcf;
+	font-size: 20px;
+	line-height: 26px;
+	margin-right: -23px;
+	margin-left: -23px;
+}
+.novosib .factoid{
+	    letter-spacing: -4px;
+}
+.novosib .factoid span{
+	    letter-spacing: -10px;
+}
+.novosib h2{
+	margin: 0 0 20px 0;
+padding: 0;
+font: normal 26px/1.1 "FreeSet-Book", "Arial" , sans-serif;
+text-transform: none;
+}
+.novosib .input{
+	border: 1px solid #b7b7b7;
+	padding-left: 10px;
+margin-top: 0;
+	margin-bottom: 0;
+		margin-right: 20px;
+}
+.input:focus { /* Chrome/Opera/Safari */
+  color: #333333;
+}
+.novosib .btn{
+	font-size: 16px;
+	min-width: 150px;
+}
 .brusnika:after {
 	content: '';
 	clear: both;
@@ -6,24 +154,21 @@
 .brusnika__header .title {
 	margin-bottom: 0 !important;
 }
-
-
-.brusnika__header .slide{
-  height: 80vh;
+.brusnika__header .slide {
+	height: 80vh;
+	position: relative;
 }
-.heading-wrapper{
+.heading-wrapper {
 	padding: 0 145px;
 	box-sizing: border-box;
 	margin: 0 auto;
 	width: 1290px;
 }
-
 .brusnika__header .inner.inner-content {
 	bottom: 70px !important;
 }
 .brusnika__text-content {
 	width: 65%;
-	;
 	float: left;
 }
 .brusnika aside {
@@ -79,7 +224,7 @@
 	border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 .brusnika__content {
-	margin-top: 160px !imortant;
+/*	margin-top: 150px !important;*/
 	max-width: 1290px;
 }
 .brusnika__content:after {
@@ -93,13 +238,9 @@
 .brusnika h2 {
 	margin: 50px 0 28px !important;
 }
-
-
 .brusnika h2:first-of-type {
 	margin-top: 0px !important;
 }
-
-
 .brusnika__border-block {
 	border: 2px solid #37465b;
 	font-size: 20px;
@@ -112,7 +253,7 @@
 	;
 }
 .no-margin {
-	margin-bottom: 15px;
+	margin-bottom: 15px !important;
 }
 .brusnika__border-block--red {
 	border: 2px solid #37465b;
@@ -185,6 +326,9 @@
 }
 .img:last-of-type {
 	margin-right: 0%;
+}
+.row {
+	margin-left: 0 !important;
 }
 .row img {
 	width: 100%;

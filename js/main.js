@@ -122,6 +122,9 @@ function postPhone(event) {
 	if($('body').hasClass('surgut')){
 			url = 'mail-surgut.php';
 	}
+		if($('body').hasClass('novosib')){
+			url = 'mail-novosib.php';
+	}
 		data = values.data;
 
 	$.post(url, {
@@ -141,11 +144,11 @@ function postPhone(event) {
 						message = 'Спасибо! Мы&nbsp;ещё не&nbsp;на&nbsp;работе, наберём между 9&nbsp;и&nbsp;10&nbsp;утра';
 						break;
 
-					case currentMSKHour >= 9 && currentMSKHour <= 20:
+					case currentMSKHour >= 9 && currentMSKHour <= 19:
 						message = 'Спасибо! Перезвоним в&nbsp;течение получаса';
 						break;
 
-					case currentMSKHour >= 21 && currentMSKHour <= 23:
+					case currentMSKHour >= 20 && currentMSKHour <= 23:
 						message = 'Спасибо! Мы&nbsp;уже сбежали по&nbsp;домам, перезвоним завтра между 9&nbsp;и&nbsp;10&nbsp;утра';
 						break;
 
